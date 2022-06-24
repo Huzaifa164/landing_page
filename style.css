@@ -1,6 +1,8 @@
 *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -50,6 +52,9 @@ a{
 
 .header-info{
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .placeholder{
@@ -75,4 +80,45 @@ button{
     height: 33px;
     font-size: 15px;
     border-radius: 10px;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-container{
+    display: flex;
+    padding: 0 300px;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    gap: 10px;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
 }
