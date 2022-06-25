@@ -158,6 +158,7 @@ button{
     align-items: center;
     padding: 0 80px;
     color: white;
+    border-radius: 10px;
 }
 
 .signup-text > h3{
@@ -170,4 +171,13 @@ button{
 
 .btn{
     border: 2px solid white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
 }
